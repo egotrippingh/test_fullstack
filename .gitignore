@@ -1,0 +1,35 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+apps/backend/.build/
+coverage/
+.turbo/
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.pid
+
+# doc
+TASKS.md
+PLAN.md
+.codex
+TEST_TASK_PROMO_CODE_MANAGER_v2.3\ \(1\).md
+infra/move_containerd_root.sh
