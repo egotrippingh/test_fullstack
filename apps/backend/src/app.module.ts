@@ -7,6 +7,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { JwtAuthGuard } from './common/guards/jwt-auth.guard';
 import configuration from './config/configuration';
 import { validationSchema } from './config/env.validation';
+import { AnalyticsModule } from './modules/analytics/analytics.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { BootstrapModule } from './modules/bootstrap/bootstrap.module';
 import { ClickhouseModule } from './modules/clickhouse/clickhouse.module';
@@ -40,7 +41,8 @@ import { UsersModule } from './modules/users/users.module';
     AuthModule,
     BootstrapModule,
     PromocodesModule,
-    OrdersModule
+    OrdersModule,
+    AnalyticsModule
   ],
   providers: [
     {
