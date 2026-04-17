@@ -11,6 +11,7 @@ import { AuthModule } from './modules/auth/auth.module';
 import { BootstrapModule } from './modules/bootstrap/bootstrap.module';
 import { ClickhouseModule } from './modules/clickhouse/clickhouse.module';
 import { HealthModule } from './modules/health/health.module';
+import { OrdersModule } from './modules/orders/orders.module';
 import { PromocodesModule } from './modules/promocodes/promocodes.module';
 import { RedisModule } from './modules/redis/redis.module';
 import { SyncModule } from './modules/sync/sync.module';
@@ -38,7 +39,8 @@ import { UsersModule } from './modules/users/users.module';
     UsersModule,
     AuthModule,
     BootstrapModule,
-    PromocodesModule
+    PromocodesModule,
+    OrdersModule
   ],
   providers: [
     {
